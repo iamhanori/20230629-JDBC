@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>write_form</title>
+</head>
+<body>
+<h3 th:text="'사용자 등록'"/>
+  <form method="post" action="/write_form">
+    ID <input type="text" name="id" /> <br/>
+    NAME <input type="text" name="name" /> <br/>
+    <button type="submit">입력완료</button>
+  </form>
+</body>
+</html>
